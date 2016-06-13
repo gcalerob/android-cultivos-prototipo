@@ -11,23 +11,21 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
-import classes.AppApplication;
-
-public class NuevoFormulario extends AppCompatActivity
+public class GPS extends AppCompatActivity
         implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     GoogleApiClient mGoogleApiClient;
 
     Location mLastLocation;
     String latitud, longitud;
-//    AppApplication mApp;
-    TextView tvGPS;
+//  AppApplication mApp;
+    TextView tvCoordenadas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rellenar_formulario);
-//        mApp = ((AppApplication)getApplicationContext());
+        setContentView(R.layout.gps_layout);
+//      mApp = ((AppApplication)getApplicationContext());
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
@@ -35,7 +33,7 @@ public class NuevoFormulario extends AppCompatActivity
                 .addApi(LocationServices.API)
                 .build();
 
-        tvGPS = (TextView)findViewById(R.id.tvGPS);
+        tvCoordenadas = (TextView)findViewById(R.id.tvCoordenadas);
 
     }
 
@@ -59,7 +57,7 @@ public class NuevoFormulario extends AppCompatActivity
         if (mLastLocation != null) {
             latitud = String.valueOf(mLastLocation.getLatitude());
             longitud = String.valueOf(mLastLocation.getLongitude());
-            tvGPS.setText(latitud + " , " + longitud);
+            tvCoordenadas.setText(latitud + " , " + longitud);
         }
     }
 

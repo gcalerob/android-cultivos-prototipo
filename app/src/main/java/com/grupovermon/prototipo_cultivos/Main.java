@@ -17,7 +17,7 @@ public class Main extends AppCompatActivity {
         bNuevoFormulario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Main.this, NuevoFormulario.class);
+                Intent intent = new Intent(Main.this, GPS.class);
                 Main.this.startActivity(intent);
             }
         });

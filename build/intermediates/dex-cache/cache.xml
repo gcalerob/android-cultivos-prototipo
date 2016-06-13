@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_2dbe334c02e33d6b256591420e2ddbd4954bc67c.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/gson-2.6.2_12be172460a0cdb2ce6900f0ee08eb9a9178bd0b.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_5ab50fb3cf3c2e5f098b82d54e3e935e633dfd60.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_58087addb7e652a5ad44ca20a1310cae45c31343.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_543a3243a96443118dc6925590449f2088355655.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_c6102ec36fea0d2cc992d7ff2fd096b7ea862618.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c4690ab7be9bc639c1d6e97cd6fde31f62e0d804">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_00587711de2269a3e2f0c090eed4625a80460697.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_35615c847d2fe4c96636f5c054ffc8db79b39a85.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.0.2_d0cf33daf7ff85c7c5dbd2687415f7677dd6586a.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b75bf3f36affabdd44eac90b1a21bb85ab2e5043">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/instant-run_b87029af60eea7f06b8a40d27335165a99253446.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_1eb5edeb2f64e9d49b3ccb8c66a969c537845bec.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.0.2_33a0b4f1f7a260123020ee53d133379f75c992d9.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_4502dd89afba22152e7facd963ceaabe78e5c6f1.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_e816ae08f3cd2b3d3abd06b92754bf6964e27022.jar" />
+    </item>
+    <item
+        jar="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/home/gcalero/PROJECTS/AndroidStudioProjects/cultivos_prototipo/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_ab55f7c86e9e8b11b5d19ce03ba84888669ca76b.jar" />
+    </item>
+
+</items>
