@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class Main extends AppCompatActivity {
-    private Button bNuevoFormulario;
+    private Button bGPS;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        bNuevoFormulario = (Button)findViewById(R.id.bNuevoFormulario);
-        bNuevoFormulario.setOnClickListener(new View.OnClickListener() {
+        bGPS = (Button)findViewById(R.id.bGPS);
+        bGPS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Main.this, GPS.class);

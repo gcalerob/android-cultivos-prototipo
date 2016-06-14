@@ -5,20 +5,60 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GPS"
-        android:id="@+id/textView2"
+        android:id="@+id/tvTitulo"
         android:textSize="@dimen/texto_titulo"
 
         android:layout_gravity="center_horizontal"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvCoordenadasActuales"
+        android:text="- Coordenadas actuales -"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCoordenadasH1"
+        android:textSize="@dimen/formulario_tamaño_texto"
+        android:text="Coordenadas H1"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-- Coordenadas GPS --"
-        android:id="@+id/tvCoordenadas"
+        android:id="@+id/tvCoordenadasH2"
+        android:text="Coordenadas H2"
         android:textSize="@dimen/formulario_tamaño_texto"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp" />
+        android:layout_below="@+id/tvCoordenadasH1"
+        android:layout_alignLeft="@+id/tvCoordenadasH1"
+        android:layout_alignStart="@+id/tvCoordenadasH1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvCambios"
+        android:text="Cambios"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/tvCoordenadasH2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivAlerta"
+        android:scaleType="fitXY"
+        android:src="@drawable/alert_icon"
+        android:layout_below="@+id/tvCoordenadasActuales"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Prototipo_Cultivos</string>
+    <string name="alert_gps">GPS DESACTIVADO, activación necesaria para captura de coordenadas precisas</string>
+    <string name="alert_gps_yes">ACTIVAR</string>
 </resources>
