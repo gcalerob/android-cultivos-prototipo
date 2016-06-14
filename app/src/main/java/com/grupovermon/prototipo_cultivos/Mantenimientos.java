@@ -16,6 +16,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Mantenimientos extends AppCompatActivity {
     int id = 1;
@@ -67,7 +70,7 @@ public class Mantenimientos extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String res = readSavedData();
-                tvCarga.setText(res);
+                tvCarga.setText(JSONaObjetos(res).toString());
             }
         });
     }
@@ -75,6 +78,24 @@ public class Mantenimientos extends AppCompatActivity {
     private void actualizarId(){
         String s = "ID: " + id;
         tvCrearId.setText(s);
+    }
+
+    private ArrayList<Mantenimiento> JSONaObjetos(String data){
+        int numeroObjetos = data.length() - data.replace("{", "").length();
+        ArrayList<Mantenimiento> arrayMantenimientos = new ArrayList<Mantenimiento>();
+        ArrayList<String> JSONs = new ArrayList<String>();
+        Pattern p = Pattern.compile("\\{(.*?)\\}");
+        Matcher m = p.matcher(data);
+
+        for (int i=0;i<numeroObjetos;i++){
+            m.find();
+            JSONs.add(m.group());
+        }
+        for (int i=0;i<JSONs.size();i++){
+            Mantenimiento objetoMantenimiento = gson.fromJson(JSONs.get(i), Mantenimiento.class);
+            arrayMantenimientos.add(objetoMantenimiento);
+        }
+        return arrayMantenimientos;
     }
 
     public void writeData(String data) {
